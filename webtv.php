@@ -36,5 +36,3 @@ fclose($handle);
     readfile($file);
     exit;
 ?>
-netstat -plane | grep :80 | awk {‘print $5'} | cut -d ‘:’ -f1 | sort -n | uniq -c | sort -n
-netstat -plane | grep :80 | awk {‘print $5'} | cut -d ‘:’ -f1 | sort -n | uniq -c | sort -n
